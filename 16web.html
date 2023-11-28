@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="16webc.css">
+    <script src="16webj.js"></script>
+    <title>Game</title>
+</head>
+<body>
+    <div id="full-display">
+        <div id="game-area">
+            <div id="game-container">
+                <div class="gbox" id="gbox-1"><button id="bbtn-1" onclick="click1()"><p id="btn-1" class="btn-text" >-</p></button></div>
+                <div class="gbox" id="gbox-3"><button id="bbtn-2" onclick="click2()"><p id="btn-2" class="btn-text" >-</p></button></div>
+                <div class="gbox" id="gbox-2"><button id="bbtn-3" onclick="click3()"><p id="btn-3" class="btn-text" >-</p></button></div>
+                <div class="gbox" id="gbox-4"><button id="bbtn-4" onclick="click4()"><p id="btn-4" class="btn-text" >-</p></button></div>
+                <div class="gbox" id="gbox-5"><button id="bbtn-5" onclick="click5()"><p id="btn-5" class="btn-text" >-</p></button></div>
+                <div class="gbox" id="gbox-6"><button id="bbtn-6" onclick="click6()"><p id="btn-6" class="btn-text" >-</p></button></div>
+                <div class="gbox" id="gbox-7"><button id="bbtn-7" onclick="click7()"><p id="btn-7" class="btn-text" >-</p></button></div>
+                <div class="gbox" id="gbox-8"><button id="bbtn-8" onclick="click8()"><p id="btn-8" class="btn-text" >-</p></button></div>
+                <div class="gbox" id="gbox-9"><button id="bbtn-9" onclick="click9()"><p id="btn-9" class="btn-text" >-</p></button></div>
+            </div>
+        </div>
+        
+        <div id="info-area">
+            <div id="show-turn">
+                <p id="show-turn-p">Turn of : X</p>
+            </div>
+            <div id="winner-area">
+                <h3 id="game-status" style="text-align: center; font-size: 32px;"></h3>
+                <p id="winner-name" style="text-align: center; font-size: 24px;"></p>
+            </div>
+            <div id="btn-area">
+                <button id="re-btn" onclick="clickRestart()">Restart Game</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
